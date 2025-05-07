@@ -21,6 +21,16 @@ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+## Running Tests
+
+This fork includes an automated test suite powered by [Jest](https://jestjs.io/) and [Supertest](https://github.com/ladjs/supertest).
+
+```bash
+npm test
+```
+
+The default test verifies that a `GET /` request responds with **Hello World!**. Feel free to add your own tests in files ending with `.test.js` or inside a `__tests__/` directory – Jest will discover them automatically.
+
 ## Deploying to Heroku
 
 ```
